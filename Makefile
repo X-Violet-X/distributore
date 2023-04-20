@@ -1,4 +1,4 @@
-all: distributore
+all: release
 
 release: distributore
 	mkdir -p release
@@ -10,3 +10,4 @@ distributore: fn.c main.c
 clean: 
 	rm -f *.o
 	rm -f distributore
+	rm -rf release
