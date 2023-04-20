@@ -1,0 +1,5 @@
+distributore
+*.o
+*.out
+**/*.out
+**/*.o
